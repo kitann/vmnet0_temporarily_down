@@ -1,0 +1,18 @@
+The network bridge on device VMnet0 is temporarily down because the bridged Ethernet interface is down
+========================================================================================================
+
+-	If you have both connectivity on the host:
+
+	-	LAN(Ethernet) 
+	-	WAN(Wifi) 
+
+- 	Go To VMWare EDIT tab
+	-	and click "Virtual Network Editor"
+
+-	Click "Add Network" 
+	-	Add VMnet0 to LAN 
+	-	Add VMnet1 to WAN
+
+-	Apply the settings and click OK
+
+- 	Ensure you select the right Virtual Network Adapter based on the "Physical Machine" connection setings
